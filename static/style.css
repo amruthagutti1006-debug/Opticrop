@@ -1,17 +1,20 @@
 body{
-    background-image:
-url("background.jpg");
+    margin = 0;
+    padding: 0;
+    background: url("background.jpg")
+no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachement: fixed;
+    font-family: Arial, sans-serif;
 }
 
 .container{
+    width: 40%;
+    max-width: 500px;
+    margin: 40px auto;
     background: rgba(255, 255, 255,0.92);
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 0 20px
+    box-shadow: 0 5px 20px
 rgba(0,0,0,0.3)
 }
 
@@ -33,15 +36,12 @@ input{
     font-size:16px;
 }
 
+input,
 button{
-    width:95%;
+    width:100%;
     padding:12px;
-    background:green;
-    color:white;
-    border:none;
-    border-radius:8px;
-    font-size:18px;
-    cursor:pointer;
+    margin: 10px 0;
+    box-sizing: border-box;
 }
 
 button:hover{
