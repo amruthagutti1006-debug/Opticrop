@@ -1,15 +1,10 @@
 body{
-    margin:0;
-    padding:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background: url("backgroynd.jpg")
-no-repeat center center fixed;
+    background-image:
+url("background.jpg");
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachement: fixed;
 }
 
 .container{
